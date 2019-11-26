@@ -1,17 +1,16 @@
 <style>
-
-.alert{
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    min-width: 300px;
-    width: 50%;
-}
-
+    .alert {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        min-width: 300px;
+        width: 50%;
+    }
 </style>
 
 <?php
-function aviso($texto){
+function aviso($texto)
+{
     echo ("
     <div class='alert alert-success alert alert-dismissible fade show' role='alert'> 
         <div class='container'>
@@ -24,7 +23,8 @@ function aviso($texto){
     </div>");
 }
 
-function erro($texto){
+function erro($texto)
+{
     echo ("
     <div class='alert alert-danger alert alert-dismissible fade show' role='alert'> 
         <div class='container'>
@@ -35,9 +35,10 @@ function erro($texto){
             </button>
         </div>
     </div>");
- }
+}
 
- function alerta($texto){
+function alerta($texto)
+{
     echo ("
     <div class='alert alert-warning alert alert-dismissible fade show' role='alert'> 
         <div class='container'>
@@ -48,4 +49,4 @@ function erro($texto){
             </button>
         </div>
     </div>");
- }
+}

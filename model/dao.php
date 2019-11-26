@@ -3,8 +3,8 @@ class Dao
 {
     const HOST = "localhost";
     const USER = "root";
-    const PASS = "Fsm@12345";
-    const DB = "jogo";
+    const PASS = "";
+    const DB = "hospital";
 
     function conecta()
     {
